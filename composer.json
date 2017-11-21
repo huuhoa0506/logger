@@ -1,0 +1,23 @@
+{
+    "name": "nhh/logger",
+    "description": "\"logger for lumen\"",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hoa Nguyen",
+            "email": "get.right.fnt@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nesbot/carbon": "^1.0",
+        "php": "^5.5.9 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nhh\\Logger\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
